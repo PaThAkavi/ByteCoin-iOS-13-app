@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct CoinModel {
+    let last: Float
+    
+    var lastString: String {
+        return String(format: "%.2f", last)
+    }
+    
+}
